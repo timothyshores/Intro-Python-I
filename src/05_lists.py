@@ -34,3 +34,4 @@ print(len(x))
 # YOUR CODE HERE
 for i in x:
     print(i * 1000)
+
