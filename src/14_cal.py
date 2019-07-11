@@ -24,8 +24,7 @@ import calendar
 from datetime import datetime
 
 args = sys.argv[1:]
-try:
-    if len(args) == 2:
+try: if len(args) == 2:
         month = int(args[0])
         year = int(args[1])
     elif len(args) == 1:
