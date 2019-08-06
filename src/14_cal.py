@@ -32,6 +32,5 @@ elif (len(sys.argv) == 2):
     print(calendar.month(year, int(sys.argv[1])))
 elif (len(sys.argv) == 3):
     print(calendar.month(int(sys.argv[2]), int(sys.argv[1])))
-
 else:
     print(f"Please specify no arguements for for the current month and year, one arguement for that month of this year or else two arguements for that month and year")
